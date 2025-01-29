@@ -3,6 +3,7 @@ const { getUsers, addUser } = require('../db/dbService');
 
 const router = express.Router();
 
+
 // Route to get all users
 router.get('/users', async (req, res) => {
   try {
